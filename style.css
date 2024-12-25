@@ -8,19 +8,28 @@
 * {
   font-family: "SF-pro ", sans-serif;
   color: aliceblue;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-  margin: 0; /* حذف حاشیه‌های پیش‌فرض */
-  padding: 0; /* حذف پدینگ‌های پیش‌فرض */
-  overflow-x: hidden; /* جلوگیری از اسکرول افقی */
+  background-image: url("./assets/pic/photo_2024-12-17_13-57-32.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .container {
-  justify-content: center;
+  align-items: center;
 }
 /* NAVBAR */
 
 .navbar {
+  margin: 5% auto;
+  width: 70%;
   margin-left: 250px;
   margin-top: 80px;
   color: #adadad;
@@ -46,8 +55,8 @@ li {
   opacity: 0.9;
   padding-right: 25px;
   padding-left: 25px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 ul img {
   margin-right: 70px;
@@ -62,12 +71,13 @@ h5 {
   border: 1px solid #303132;
   background-color: #303132;
   border-radius: 50px;
-  padding-top: 12.8px;
-  padding-bottom: 12.8px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 10.32px;
+  padding-left: 10.32px;
   margin-left: 500px;
-  margin-top: 80px;
+  margin-top: 25px;
+  margin-bottom: 40px;
 }
 h5 img {
   align-items: center;
@@ -83,16 +93,23 @@ h5 img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-size: 60px;
 }
 h1 {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  font-weight: 600px;
+  font-size: 60px;
+  align-items: center;
 }
 h4 {
   color: #9b9b9b;
   margin-left: 380px;
+  margin-top: 20.92px;
 }
 .but2 {
+  margin: 0 auto;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,6 +129,7 @@ h4 {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 500px;
+  margin-top: 30.59px;
   margin-bottom: 71.43px;
 }
 footer img {
