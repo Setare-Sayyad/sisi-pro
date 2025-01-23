@@ -135,7 +135,8 @@ h4 {
   justify-content: center;
   align-items: center;
   color: #151515;
-  border: 1px solid #a0a8ff;
+  /* border: 1px solid #a0a8ff; */
+  border: none;
   background: linear-gradient(
     to left,
     #fd91ff 34.44%,
@@ -156,6 +157,7 @@ h4 {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  box-shadow: 0 0 10px #a0a8ff;
 }
 
 footer img {
