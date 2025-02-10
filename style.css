@@ -42,19 +42,17 @@ body {
   color: white;
   font-family: Arial, sans-serif;
   position: absolute;
-  top: 20px; /* فاصله از بالای صفحه */
+  top: 63px;
   left: 50%;
-  transform: translateX(-50%); /* این باعث میشه نوبار دقیقاً وسط بشینه */
-  border-radius: 25px; /* گرد کردن لبه‌ها */
+  transform: translateX(-50%);
+  border-radius: 25px;
 }
 
-/* استایل لوگو */
 .logo {
   font-size: 18px;
   font-weight: bold;
 }
 
-/* استایل لینک‌های ناوبری */
 .nav-links {
   list-style: none;
   display: flex;
@@ -95,7 +93,7 @@ h5 {
   background-color: #303132;
   border-radius: 50px;
   padding: 6px;
-  margin-top: 25px;
+  margin-top: 200px;
   margin-bottom: 40px;
 }
 h5 img {
